@@ -8,12 +8,12 @@ function packageTheme() {
       '!../**/readme.md',
       '!../{node_modules,node_modules/**/*}',
       '!../{build,build/**/*}',
-      '!../assets/{src,src/**/*}',
+      '!../{scss,scss/**/*}',
       '!../.editorconfig',
       '!../.gitignore',
       '!../*.json'
     ])
-    .pipe(zip(`jumpstart-child.zip`))
+    .pipe(zip('jumpstart-child.zip'))
     .pipe(gulp.dest('../'));
 }
 

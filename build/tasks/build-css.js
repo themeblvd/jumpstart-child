@@ -7,7 +7,7 @@ function buildCss(mode) {
   const style = mode === 'dev' ? 'expanded' : 'compressed';
 
   gulp
-    .src('../assets/src/scss/style.scss')
+    .src('../scss/style.scss')
     .pipe(sass({ outputStyle: style, importer: tildeImporter }).on('error', sass.logError))
     .pipe(gulp.dest('../'));
 }
