@@ -5,8 +5,10 @@ gulp.task('build-css-dev', () => buildCss('dev'));
 
 gulp.task('build-css-prod', () => buildCss('prod'));
 
-gulp.task('watch', require('./tasks/watch'));
+gulp.task('watch', ['build-css-dev'], require('./tasks/watch'));
+
+gulp.task('clean', require('./tasks/clean'));
 
 gulp.task('package-theme', require('./tasks/package-theme'));
 
-gulp.task('default', ['build-css-prod', 'build-img']);
+gulp.task('default', ['build-css-prod']);
