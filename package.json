@@ -3,12 +3,14 @@
   "scripts": {
     "dev": "@TODO",
     "build": "@TODO",
-    "css:dev": "gulp --gulpfile ./build/gulpfile.js build-css-dev",
-    "css:prod": "gulp --gulpfile ./build/gulpfile.js build-css-prod"
+    "build:css:dev": "gulp --gulpfile ./build/gulpfile.js build-css-dev",
+    "build:css:prod": "gulp --gulpfile ./build/gulpfile.js build-css-prod",
+    "build:img": "gulp --gulpfile ./build/gulpfile.js build-img"
   },
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^5.0.0",
+    "gulp-imagemin": "^4.1.0",
     "gulp-sass": "^4.0.1",
     "node-sass-tilde-importer": "^1.0.2"
   }
