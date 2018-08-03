@@ -1,0 +1,7 @@
+{
+    "name": "jumpstart-child",
+    "scripts": {
+        "dev": "@TODO",
+        "build": "@TODO"
+    }
+}
