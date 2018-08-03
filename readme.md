@@ -13,3 +13,7 @@ This is a boilerplate to create more modern child themes for [Jump Start](https:
 ## Usage
 
 @TODO
+
+## Cool Things to Know
+
+@TODO
