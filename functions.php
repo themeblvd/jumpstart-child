@@ -17,7 +17,7 @@ require_once( get_template_directory() . '/framework/themeblvd.php' );
  */
 function jumpstart_option_id( $id ) {
 
-    return 'jumpstart';
+	return 'jumpstart';
 
 }
 add_filter( 'themeblvd_option_id', 'jumpstart_option_id' );
